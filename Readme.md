@@ -1,4 +1,4 @@
-# 🧪 Tokero Contact Form Automation
+# 🧪 Tokero App Automation
 
 This project automates the testing of the Tokero page form using [Playwright](https://playwright.dev/) and [Allure Reports](https://docs.qameta.io/allure/).
 

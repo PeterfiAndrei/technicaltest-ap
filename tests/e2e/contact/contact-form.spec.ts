@@ -4,7 +4,7 @@ import {generateValidEmail} from "../../utils/generateValidEmail";
 import {acceptCookies} from "../../utils/cookie-utils"
 import {languageTexts} from '../../test-data/language-contact-texts'
 
-test.describe('Contact Form Tests', () => {
+test.describe('Contact Page Tests', () => {
     let contactPage: ContactPage;
     let language: keyof typeof languageTexts;
     test.beforeEach(async ({page}, testInfo) => {

@@ -1,10 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const isCI = !!process.env.CI;
-// @ts-ignore
-// @ts-ignore
-// @ts-ignore
-// @ts-ignore
 export default defineConfig({
   testDir: './tests',
   timeout: 30 * 1000,

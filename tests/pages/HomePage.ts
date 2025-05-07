@@ -1,7 +1,14 @@
-import {Page, Locator, expect} from '@playwright/test';
+import {Page, Locator, expect} from '@playwright/test'
+import {tabTitleTexts} from '../test-data/language-home-texts'
 
-type HeaderButton = 'corporate' | 'exchange' | 'academy' | 'contactUs' | 'login';
-
+export type HeaderButton = 'corporate' | 'exchange' | 'academy' | 'contactUs' | 'login'
+const buttonTitleMap: Record<HeaderButton, keyof typeof tabTitleTexts['en']> = {
+    corporate: 'corporate',
+    exchange: 'exchange',
+    academy: 'academy',
+    contactUs: 'contactUs',
+    login: 'login',
+};
 export class HomePage {
 
     // Header locators
@@ -20,7 +27,6 @@ export class HomePage {
         this.loginBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(5)').nth(0)
     }
 
-    // Button to URL mapping (adjust paths based on your app)
     private buttonUrlMap: Record<HeaderButton, string> = {
         corporate: '/corporate',
         exchange: '/exchange',
@@ -33,16 +39,20 @@ export class HomePage {
         await this.page.goto(`/${langCode}/`);
     }
 
-    async navigateTo(button: HeaderButton, language: string): Promise<void> {
+    async navigateTo(button: HeaderButton): Promise<void> {
         const buttonLocator = this.getLocator(button);
         await expect(buttonLocator).toBeVisible();
-
-        // Click the button and wait for navigation
         await buttonLocator.click();
+    }
 
-        // Verify navigation by checking the URL
-        const expectedUrl = `${this.page.url().split('/').slice(0, 3).join('/')}/${language}${this.buttonUrlMap[button]}`;
+    async verifyPageUrl(button: HeaderButton, language: string): Promise<void> {
+        const expectedUrl = `${this.page.url().split('/').slice(0, 3).join('/')}/${language}${this.buttonUrlMap[button]}/`;
         await expect(this.page).toHaveURL(expectedUrl);
+    }
+
+    async verifyPageTitle(button: HeaderButton, language: keyof typeof tabTitleTexts): Promise<void> {
+        const expectedTitle = tabTitleTexts[language][buttonTitleMap[button]];
+        await expect(this.page).toHaveTitle(expectedTitle);
     }
 
     async verifyTexts(texts: { [key: string]: { value: string; attribute?: string; locator?: string } }) {
