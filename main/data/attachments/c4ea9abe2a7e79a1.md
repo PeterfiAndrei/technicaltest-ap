@@ -1,0 +1,772 @@
+# Test info
+
+- Name: Contact Form Tests >> should display correct Navigation Bar Fields
+- Location: /home/runner/work/technicaltest-ap/technicaltest-ap/tests/e2e/home/home.spec.ts:22:9
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "Entreprise"
+Received: "Corporate"
+    at HomePage.verifyTexts (/home/runner/work/technicaltest-ap/technicaltest-ap/tests/pages/HomePage.ts:56:46)
+    at /home/runner/work/technicaltest-ap/technicaltest-ap/tests/e2e/home/home.spec.ts:28:9
+```
+
+# Page snapshot
+
+```yaml
+- paragraph:
+  - link "SocialFi is happening! Join the official SocialFi Waiting List today to earn Founder status!":
+    - /url: /en/link/socialfi-top/
+    - strong: SocialFi is happening!
+    - text: Join the official SocialFi Waiting List today to earn Founder status!
+- button "✖"
+- banner:
+  - navigation "Topbar menu":
+    - link "TOKERO logo":
+      - /url: /fr/
+      - img "TOKERO logo"
+    - list:
+      - listitem:
+        - link "Corporate":
+          - /url: /fr/corporate/
+      - listitem:
+        - link "Exchange":
+          - /url: /fr/exchange/
+      - listitem:
+        - link "Academy":
+          - /url: /fr/academy/
+      - listitem:
+        - link "Contacte-nous":
+          - /url: /fr/contact/
+      - listitem:
+        - link "Login":
+          - /url: /fr/login/
+          - img
+          - text: Login
+      - listitem:
+        - link "Créer un compte":
+          - /url: /fr/register/
+      - listitem:
+        - button "fr flag FR":
+          - img "fr flag"
+          - text: FR
+- img "TOKERO"
+- heading "Achète du Bitcoin BTC, Ether ETH et d'autres crypto maintenant ! Tu peux acheter aussitôt par carte. Mastercard logoVisa logo Simple et sécurisé." [level=3]:
+  - text: Achète du Bitcoin
+  - img "BTC"
+  - text: ", Ether"
+  - img "ETH"
+  - text: et d'autres crypto maintenant !
+  - link "Tu peux acheter aussitôt par carte. Mastercard logoVisa logo":
+    - /url: /ro/exchange/card/usdc/
+    - text: Tu peux acheter aussitôt par carte.
+    - img "Mastercard logo"
+    - img "Visa logo"
+  - text: Simple et sécurisé.
+- paragraph: Taux de change actuels en EUR
+- table:
+  - rowgroup:
+    - row "Achète Vends":
+      - cell
+      - cell "Achète"
+      - cell "Vends"
+  - rowgroup:
+    - row "BTC Bitcoin BTC 86296.56 84564.21":
+      - cell "BTC":
+        - link "BTC":
+          - /url: /fr/info/bitcoin-btc/
+          - img "BTC"
+      - cell "Bitcoin BTC":
+        - link "Bitcoin BTC":
+          - /url: /fr/info/bitcoin-btc/
+      - cell "86296.56":
+        - link "86296.56":
+          - /url: /fr/exchange/buy/btc/eur/
+      - cell "84564.21":
+        - link "84564.21":
+          - /url: /fr/exchange/sell/btc/eur/
+    - row "ETH Ether ETH 1626.01 1593.45":
+      - cell "ETH":
+        - link "ETH":
+          - /url: /fr/info/ether-eth/
+          - img "ETH"
+      - cell "Ether ETH":
+        - link "Ether ETH":
+          - /url: /fr/info/ether-eth/
+      - cell "1626.01":
+        - link "1626.01":
+          - /url: /fr/exchange/buy/eth/eur/
+      - cell "1593.45":
+        - link "1593.45":
+          - /url: /fr/exchange/sell/eth/eur/
+    - row "USDT Tether USDT 0.8891 0.8712":
+      - cell "USDT":
+        - link "USDT":
+          - /url: /fr/info/tether-usdt/
+          - img "USDT"
+      - cell "Tether USDT":
+        - link "Tether USDT":
+          - /url: /fr/info/tether-usdt/
+      - cell "0.8891":
+        - link "0.8891":
+          - /url: /fr/exchange/buy/usdt/eur/
+      - cell "0.8712":
+        - link "0.8712":
+          - /url: /fr/exchange/sell/usdt/eur/
+    - row "EGLD eGold EGLD 13.634 13.327":
+      - cell "EGLD":
+        - link "EGLD":
+          - /url: /fr/info/elrond-egold/
+          - img "EGLD"
+      - cell "eGold EGLD":
+        - link "eGold EGLD":
+          - /url: /fr/info/elrond-egold/
+      - cell "13.634":
+        - link "13.634":
+          - /url: /fr/exchange/buy/egld/eur/
+      - cell "13.327":
+        - link "13.327":
+          - /url: /fr/exchange/sell/egld/eur/
+    - row "SOL Solana SOL 130.555 127.937":
+      - cell "SOL":
+        - link "SOL":
+          - /url: /fr/info/solana-sol/
+          - img "SOL"
+      - cell "Solana SOL":
+        - link "Solana SOL":
+          - /url: /fr/info/solana-sol/
+      - cell "130.555":
+        - link "130.555":
+          - /url: /fr/exchange/buy/sol/eur/
+      - cell "127.937":
+        - link "127.937":
+          - /url: /fr/exchange/sell/sol/eur/
+- text: "Nouvelles monnaies :"
+- link "TOKERO":
+  - /url: /fr/info/tokero-token/
+  - img "TOKERO"
+- link "TADA":
+  - /url: /fr/info/tada/
+  - img "TADA"
+- link "INFRA":
+  - /url: /fr/info/bware-infra/
+  - img "INFRA"
+- link "AI":
+  - /url: /fr/info/sleepless-ai/
+  - img "AI"
+- link "DOT":
+  - /url: /fr/info/polkadot-dot/
+  - img "DOT"
+- link "Créer un compte !":
+  - /url: /fr/register/
+  - text: Créer un compte !
+  - img
+- text: ou
+- link "Se connecter maintenant":
+  - /url: /fr/login/
+- paragraph:
+  - text: À TOKERO, notre mission est de faire
+  - strong: crypto
+  - text: accessible à tous dans un moyen
+  - strong: simple
+  - text: ", rapide et sûr."
+- img
+- heading "How to Build a Profitable Portfolio in 2025" [level=2]
+- heading [level=3]:
+  - link:
+    - /url: /fr/webinars/tokero-ventures-feb-2024-26/
+- heading "Dimanche 20 avril 2025" [level=3]
+- heading "0:00 (Eastern European Time (Bucharest))" [level=3]
+- heading "Le webinaire est terminé. Tu peux regarder l'enregistrement ici." [level=4]
+- link "Regarder l'enregistrement":
+  - /url: /fr/webinars/tokero-ventures-feb-2024-26/
+  - text: Regarder l'enregistrement
+  - img
+- link "/content/img/cover-webinar-tokero-ventures-26-feb-2025-en.jpg":
+  - /url: /fr/webinars/tokero-ventures-feb-2024-26/
+  - img "/content/img/cover-webinar-tokero-ventures-26-feb-2025-en.jpg"
+- link "TOKERO Token":
+  - /url: /fr/launchpad/tokero-token-community-sale-19/
+  - img "TOKERO Token"
+- heading "TOKERO Token Community Sale" [level=2]
+- heading "TOKERO Token" [level=3]:
+  - link "TOKERO Token":
+    - /url: /fr/launchpad/tokero-token-community-sale-19/
+- paragraph: "Gagnez l'accès à la prévente sur notre token utilitaire fraîchement lancé :"
+- paragraph
+- list:
+  - listitem: "Prix actuel : 0.06$"
+  - listitem: "Prix du Public listing : 0.08$"
+  - listitem: Paquets à partir de 100 USDT
+- link "Rejoins le Community Sale":
+  - /url: /fr/launchpad/tokero-token-community-sale-19/
+  - text: Rejoins le Community Sale
+  - img
+- heading "Découvrez les 3 pièces et tokens disponibles aujourd'hui sur TOKERO :" [level=2]
+- button "Toutes les monnaies"
+- button "DeFi"
+- button "Wallet"
+- button "Layer1"
+- button "Gaming"
+- button "AI"
+- button "Infrastructure"
+- button "NFT"
+- button "DAO"
+- button "Storage"
+- button "Layer2"
+- button "DEX"
+- button "Metaverse"
+- button "Bridge"
+- button "Launchpad"
+- button "CEX"
+- button "Memes"
+- table:
+  - rowgroup:
+    - row "Monnaies Prix(€) Capitalisation de Marché":
+      - cell "Monnaies"
+      - cell
+      - cell
+      - cell "Prix(€)"
+      - cell "Capitalisation de Marché"
+  - rowgroup:
+    - row "BTC Bitcoin BTC Achète card 85418.85 1687.45B":
+      - cell "BTC Bitcoin BTC":
+        - table:
+          - rowgroup:
+            - row "BTC Bitcoin BTC":
+              - cell "BTC":
+                - link "BTC":
+                  - /url: /fr/info/bitcoin-btc/
+                  - img "BTC"
+              - cell "Bitcoin BTC":
+                - link "Bitcoin BTC":
+                  - /url: /fr/info/bitcoin-btc/
+      - cell "Achète":
+        - link "Achète":
+          - /url: /fr/exchange/buy/btc/eur/
+      - cell "card":
+        - link "card":
+          - /url: /fr/exchange/card/btc/
+          - img "card"
+      - cell "85418.85":
+        - link "85418.85":
+          - /url: /fr/exchange/buy/btc/eur/
+      - cell "1687.45B":
+        - link "1687.45B":
+          - /url: /fr/info/bitcoin-btc/
+    - row "USDC USD Coin USDC Achète card 0.8802":
+      - cell "USDC USD Coin USDC":
+        - table:
+          - rowgroup:
+            - row "USDC USD Coin USDC":
+              - cell "USDC":
+                - link "USDC":
+                  - /url: /fr/info/usd-coin-usdc/
+                  - img "USDC"
+              - cell "USD Coin USDC":
+                - link "USD Coin USDC":
+                  - /url: /fr/info/usd-coin-usdc/
+      - cell "Achète":
+        - link "Achète":
+          - /url: /fr/exchange/buy/usdc/eur/
+      - cell "card":
+        - link "card":
+          - /url: /fr/exchange/card/usdc/
+          - img "card"
+      - cell "0.8802":
+        - link "0.8802":
+          - /url: /fr/exchange/buy/usdc/eur/
+      - cell
+    - row "TOKERO TOKERO Token TOKERO Achète card 0.122":
+      - cell "TOKERO TOKERO Token TOKERO":
+        - table:
+          - rowgroup:
+            - row "TOKERO TOKERO Token TOKERO":
+              - cell "TOKERO":
+                - link "TOKERO":
+                  - /url: /fr/info/tokero-token/
+                  - img "TOKERO"
+              - cell "TOKERO Token TOKERO":
+                - link "TOKERO Token TOKERO":
+                  - /url: /fr/info/tokero-token/
+      - cell "Achète":
+        - link "Achète":
+          - /url: /fr/exchange/buy/tokero/eur/
+      - cell "card":
+        - link "card":
+          - /url: /fr/exchange/card/tokero/
+          - img "card"
+      - cell "0.122":
+        - link "0.122":
+          - /url: /fr/exchange/buy/tokero/eur/
+      - cell
+- text: "Afficher :"
+- listbox: "10"
+- text: rangées sur 3
+- list:
+  - listitem
+  - listitem: "1"
+  - listitem
+- status: Loading...
+- heading "En savoir plus sur la crypto" [level=2]
+- paragraph: Explore le monde des cryptomonnaies et de la blockchain avec nos cours dynamiques. De la compréhension des fondamentaux à la maîtrise des concepts avancés, plonge dans cette technologie transformative et débloque son potentiel. Rejoins dès aujourd'hui le paysage crypto en pleine évolution !
+- link "Découvre les cours":
+  - /url: /fr/academy/courses/
+  - text: Découvre les cours
+  - img
+- link "Crypto 101":
+  - /url: /fr/academy/course/introduction-aux-crypto-monnaies-quiz-qri/
+  - img "Crypto 101"
+- link "Échange en ligne":
+  - /url: /fr/exchange/
+  - img "Échange en ligne"
+- link "Dépense EUR EUR 1085.00 Receçois BTC BTC 0.01257":
+  - /url: /fr/exchange/buy/btc/eur/
+  - text: Dépense
+  - img "EUR"
+  - paragraph: EUR
+  - text: "1085.00"
+  - separator
+  - text: Receçois
+  - img "BTC"
+  - paragraph: BTC
+  - text: "0.01257"
+  - img
+- heading "Échange en ligne" [level=2]
+- paragraph: Plateforme d'échange crypto sûre et adaptée aux débutants, pour faciliter les transferts entre fiat et cryptomonnaies.
+- paragraph: 27+
+- paragraph: Pays
+- paragraph: 5+
+- paragraph: Années
+- paragraph: 24/7
+- paragraph: Support
+- link "Voir plus":
+  - /url: /fr/exchange/
+  - text: Voir plus
+  - img
+- heading "Comptes corporate" [level=2]
+- paragraph: Nous offrons une configuration rapide pour un compte corporate, tu auras ton compte corporate complet en seulement quelques heures.
+- paragraph:
+  - img
+  - text: Inscription simple, comme pour les individuels.
+- paragraph:
+  - img
+  - text: Délais de validation courts.
+- paragraph:
+  - img
+  - text: Dépôts et retraits effectués en quelques heures.
+- link "Voir plus":
+  - /url: /fr/corporate/
+  - text: Voir plus
+  - img
+- link "Comptes corporate":
+  - /url: /fr/corporate/
+  - img "Comptes corporate"
+- link "Deviens un Hero Affiliate !":
+  - /url: /fr/referral-program/
+  - img "Deviens un Hero Affiliate !"
+- heading "Deviens un Hero Affiliate !" [level=2]
+- paragraph: Tu peux gagner de l'argent en promouvant TOKERO auprès de tes amis et de ta communauté.
+- list:
+  - listitem: Invite d'autres personnes à s'inscrire via ton lien.
+  - listitem: Les personnes s'enregistrent et échangent des fonds chez nous.
+  - listitem: Tu bénéficies d'une réduction de 40 % sur nos frais !
+- link "Voir plus":
+  - /url: /fr/referral-program/
+  - text: Voir plus
+  - img
+- heading "TOKERO PRO" [level=2]
+- paragraph: Bienvenue chez TOKERO Business Class ! Tu as ton propre officier de compte dédié et tu as la priorité sur les annonces les plus récentes sur notre Launchpad.
+- link "Voir plus":
+  - /url: /fr/page/pro/
+  - text: Voir plus
+  - img
+- link "TOKERO PRO":
+  - /url: /fr/page/pro/
+  - img "TOKERO PRO"
+- img "BTC"
+- paragraph: BTC
+- link "€ 86296.56":
+  - /url: /fr/exchange/buy/btc/eur/
+- img
+- paragraph: TOKERO PRO
+- paragraph: il y a 34 m
+- paragraph: Ton webinaire PRO est prêt à commencer.
+- img "ETH"
+- paragraph: ETH
+- link "€ 1626.01":
+  - /url: /fr/exchange/buy/eth/eur/
+- link "Achat par carte":
+  - /url: /fr/exchange/card/usdc/
+  - img "Achat par carte"
+- heading "Achat par carteMastercard logoVisa logo" [level=2]:
+  - text: Achat par carte
+  - img "Mastercard logo"
+  - img "Visa logo"
+- paragraph: "Choisis d'acheter la cryptomonnaie de ton choix en utilisant le moyen le plus rapide, le plus sûr et le plus simple qui soit : l'achat de crypto par carte !"
+- link "BTC Bitcoin":
+  - /url: /fr/exchange/card/btc/
+  - img "BTC"
+  - paragraph: Bitcoin
+- link "ETH Ether":
+  - /url: /fr/exchange/card/eth/
+  - img "ETH"
+  - paragraph: Ether
+- link "USDT Tether":
+  - /url: /fr/exchange/card/usdc/
+  - img "USDT"
+  - paragraph: Tether
+- paragraph: "+87"
+- paragraph: autres
+- link "Achète maintenant !":
+  - /url: /fr/exchange/card/usdc/
+  - text: Achète maintenant !
+  - img
+- heading "Tap-tap and Level Up!" [level=2]
+- paragraph: Jump into Crypto Mayors Kombat and tap to win! Every tap brings you closer to the next level – closer to becoming the leader who changes the game! We’re looking for the Crypto Mayor who’ll take charge, build their crew, and show the world there’s no room for amateurs.
+- paragraph: Make your way to the top, it’s all up to you! Don’t let anyone steal your spot!
+- paragraph: Ready to be the Crypto Mayor everyone’s talking about? Don’t wait, play now and show them what you’ve got!
+- link "Crypto Mayors Kombat":
+  - /url: http://tap.tokero.com/
+  - text: Crypto Mayors Kombat
+  - img
+- link "Tap-tap and Level Up!":
+  - /url: http://tap.tokero.com/
+  - img "Tap-tap and Level Up!"
+- link "Bons d'achat":
+  - /url: /fr/my-account/vouchers/send/?voucher=18
+  - img "Bons d'achat"
+- heading "Bons d'achat" [level=2]
+- paragraph: Envoi gratuit d'un bon d'achat de crypto dès aujourd'hui ! Nous avons créé un ensemble de modèles magnifiques que tu peux envoyer à tes amis, à ta famille ou à tes proches lors d'occasions spéciales. Envoie un bon d'anniversaire, un bon pour la Saint-Valentin, Noël, le Nouvel An, Pâques, et fait leur bonheur !
+- list:
+  - listitem: Choisis ton modèle préféré
+  - listitem: Choisis la cryptomonnaie et le montant
+  - listitem: Nous l'envoyons par e-mail
+  - listitem: Tu as fait sourire quelqu'un !
+- link "Envoie un bon dès aujourd'hui":
+  - /url: /fr/my-account/vouchers/send/?voucher=18
+  - text: Envoie un bon dès aujourd'hui
+  - img
+- heading "Pourquoi TOKERO?" [level=2]
+- paragraph: Simplicité
+- paragraph: Interface conviviale pour une intégration aisée.
+- paragraph: Compte corporate
+- paragraph: Configure ton compte corporate en juste quelques heures !
+- paragraph: Assistance clients
+- paragraph: Assistance 24/7 & officier de compte dédié pour les clients PRO.
+- paragraph: Confiance
+- paragraph: Nous offrons des services à nos clients depuis mars 2018.
+- img "Trade Crypto"
+- heading "Échange des crypto en juste quelques étapes" [level=2]
+- paragraph: Chez TOKERO, notre mission est de rendre les crypto accessibles à tous de manière simple, rapide et sûre.
+- list:
+  - listitem:
+    - paragraph: Enregistre
+    - paragraph:
+      - link "Va à la page d'inscription":
+        - /url: /fr/register/
+      - text: ou télécharge l'application TOKERO. Enregistre tes données personnelles sur la page d'informations personnelles.
+  - listitem:
+    - paragraph: Vérifie
+    - paragraph: Le processus de vérification est fluide et rapide grâce à l'outil idéal de vérification live fourni par notre partenaire ONDATO.
+  - listitem:
+    - paragraph: Déposer
+    - paragraph: Tu peux effectuer des dépôts avec une carte ou des virements en ligne de chez toi ou de ton bureau en utilisant ton application bancaire.
+  - listitem:
+    - paragraph: Achète crypto
+    - paragraph: Exchange fiat with your favorite crypto at the best rates 24/7. If you need any information, our support team is at your service.
+- heading "Ton voyage avec TOKERO est facilité par les meilleurs fournisseurs de l'industrie." [level=2]
+- img "Chainalysis"
+- img "Clearjunction"
+- img "Covery"
+- img "Nexpay"
+- img "Ondato"
+- img "Trust Payments"
+- heading "Ouvre un compte corporate dès aujourd'hui et accède à encore plus de fonctionnalités !" [level=2]
+- img
+- paragraph: Investments
+- paragraph: Si tu veux investir dans des cryptomonnaies en utilisant les fonds de ton entreprise et trader au nom de ton entreprise, alors un compte professionnel chez TOKERO répondra à tous tes besoins.
+- img
+- paragraph: Gain de temps !
+- paragraph: Nous t'offrons une grande rapidité dans l'ouverture d'un compte professionnel grâce à la vérification et à la validation efficaces des documents à l'aide d'outils dédiés (quelques heures contre quelques mois sur les plateformes étrangères).
+- img
+- paragraph: Support juridique
+- paragraph: "Parfois, les questions comptables et juridiques dans un marché émergent peuvent poser des problèmes, mais nous sommes là : nos partenaires comptables et juridiques sont toujours heureux d'apporter leur contribution !"
+- paragraph: Entreprises utilisant les services TOKERO
+- img "Fort"
+- img "BH Network"
+- img "Miniprix"
+- img "Wam"
+- img "Staking Agency"
+- img "Trust Staking"
+- heading "Nous aimons nos clients et ils nous aiment également" [level=2]
+- img
+- paragraph: Bien que nous soyons dans un domaine très concret, la production de menuiseries isolantes, nous nous intéressons également à l'aspect digital des choses, tant que cela se justifie du point de vue de l'investissement. Nous avons travaillé avec TOKERO à la fois individuellement et juridiquement et, en plus d'une mise en place rapide, nous avons trouvé un soutien de grande qualité chaque fois que nous en avons eu besoin.
+- img "Ştefan CHERCIU"
+- paragraph: Ştefan CHERCIU
+- paragraph: Président / Fondateur Casa Noastra/QFort
+- img
+- paragraph: La collaboration avec TOKERO a été immédiate et cool dès le départ. En plus d'être une entreprise qui a des bases solides et qui se développe avec ambition, c'est une équipe avec laquelle on a envie de faire des affaires. Merci, Marius, pour ce partenariat.
+- img "Daniel TAMAȘ"
+- paragraph: Daniel TAMAȘ
+- paragraph: CEO & Co-Fondateur WAM.app
+- img
+- paragraph: BH.Network est une plateforme web3 avec des bureaux au Liechtenstein et en Roumanie, sur laquelle sont construits des produits tels que la plateforme de launchpad BHero.com et la marketplace topIQs.com. Nous sommes ravis d'avoir trouvé en TOKERO un partenaire local fiable, qui assure les transitions sur et hors rampe d'une manière sûre, rapide et totalement conforme en matière de AML et de comptabilité. Bien sûr, il existe des solutions globales, mais il est beaucoup plus facile de résoudre des problèmes comptables ponctuels lorsque toutes les équipes de tiers se trouvent dans le même pays.
+- img "Marius GRIGORAȘ"
+- paragraph: Marius GRIGORAȘ
+- paragraph: CEO & Co-Fondateur BH Network
+- heading "FEATURED IN" [level=2]
+- img "Biz"
+- img "Forbes"
+- img "Profit"
+- img "Yahoo finance"
+- img "Ziarul financiar"
+- img "Wall street"
+- heading "Consulte nos derniers articles" [level=2]
+- link "Article TEST Top Strategies for Smart Investing":
+  - /url: /fr/blog/test-top-strategies-for-smart-investing-468/
+  - img "Article"
+  - heading "TEST Top Strategies for Smart Investing" [level=5]
+- link "Article Top Strategies for Smart Investing":
+  - /url: /fr/blog/top-strategies-for-smart-investing-465/
+  - img "Article"
+  - heading "Top Strategies for Smart Investing" [level=5]
+- 'link "Article Basis Trading: Spot vs Futures"':
+  - /url: /fr/blog/basis-trading-spot-vs-futures-460/
+  - img "Article"
+  - 'heading "Basis Trading: Spot vs Futures" [level=5]'
+- link "Article TOKERO Launches Crypto Mayors Kombat":
+  - /url: /fr/blog/tokero-launches-tap2earn-game-458/
+  - img "Article"
+  - heading "TOKERO Launches Crypto Mayors Kombat" [level=5]
+- 'link "Article Leading Web3 Ticketing Platform Arrives on Our Launchpad: Welcome, OVEIT!"':
+  - /url: /fr/blog/launching-oveit-412/
+  - img "Article"
+  - 'heading "Leading Web3 Ticketing Platform Arrives on Our Launchpad: Welcome, OVEIT!" [level=5]'
+- link "Voir plus":
+  - /url: /fr/blog/
+  - text: Voir plus
+  - img
+- paragraph: Prends TOKERO avec toi à chaque fois
+- paragraph:
+  - text: L'application mobile
+  - strong: TOKERO
+  - text: "est maintenant disponible sur :"
+- link "App Store":
+  - /url: /fr/link/home-app-ios/
+  - img "App Store"
+- link "Google Play Store":
+  - /url: /fr/link/home-app-android/
+  - img "Google Play Store"
+- contentinfo:
+  - paragraph: TOKERO
+  - list:
+    - listitem:
+      - link "À propos de nous":
+        - /url: /fr/about-us/
+    - listitem:
+      - link "Communauté":
+        - /url: /fr/community/
+    - listitem:
+      - link "Découvre l'équipe":
+        - /url: /fr/team/
+    - listitem:
+      - link "Blog":
+        - /url: /fr/blog/
+    - listitem:
+      - link "Carrières Nous embauchons !":
+        - /url: https://tokero.team/
+    - listitem:
+      - link "Webinaires et meetups":
+        - /url: /fr/webinars/
+    - listitem:
+      - link "Événements du Launchpad":
+        - /url: /fr/launchpad/
+    - listitem:
+      - link "Ressources téléchargeables":
+        - /url: /fr/downloads/
+  - paragraph: Services
+  - list:
+    - listitem:
+      - link "Échange en ligne":
+        - /url: /fr/exchange/
+    - listitem:
+      - link "Comptes corporate":
+        - /url: /fr/corporate/
+    - listitem:
+      - link "Académie TOKERO New !":
+        - /url: /fr/academy/
+    - listitem:
+      - link "TOKERO PRO":
+        - /url: /fr/page/pro/
+    - listitem:
+      - link "TOKERO Ventures New !":
+        - /url: /fr/page/tokero-ventures/
+    - listitem:
+      - link "Crypto Spots":
+        - /url: /fr/crypto-spots/united-states-of-america/
+    - listitem:
+      - link "Parrains":
+        - /url: /fr/referral-program/
+    - listitem:
+      - link "Contacte-nous":
+        - /url: /fr/contact/
+    - listitem:
+      - link "Apply for listing":
+        - /url: /fr/get-listed/
+    - listitem:
+      - button "fr flag Français":
+        - img "fr flag"
+        - text: Français
+  - paragraph: POLITIQUES ET RÈGLES
+  - list:
+    - listitem:
+      - link "Liste des politiques":
+        - /url: /fr/policies/
+    - listitem:
+      - link "Termes et conditions":
+        - /url: /fr/policies/terms-of-service/
+    - listitem:
+      - link "GDPR":
+        - /url: /fr/policies/gdpr/
+    - listitem:
+      - link "Confidentialité":
+        - /url: /fr/policies/privacy/
+    - listitem:
+      - link "KYC":
+        - /url: /fr/policies/kyc/
+    - listitem:
+      - link "Cookies":
+        - /url: /fr/policies/cookies/
+  - paragraph: INFO
+  - list:
+    - listitem:
+      - link "Frais et délais":
+        - /url: /fr/policies/fees/
+    - listitem:
+      - link "Minimums et options":
+        - /url: /fr/policies/minimums-and-options/
+    - listitem:
+      - link "Temps de réponse/traitement des demandes":
+        - /url: /fr/policies/answering-times/
+    - listitem:
+      - link "Infos monnaies":
+        - /url: /fr/info/
+    - listitem:
+      - link "Jours fériés":
+        - /url: /fr/non-banking-days/
+    - listitem:
+      - link "Règlement des litiges en ligne":
+        - /url: https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show
+  - paragraph: Newsletter
+  - textbox "S'il te plaît, saisis ton e-mail ici"
+  - button "S'abonner "
+  - link "Visite-nous sur Facebook":
+    - /url: /fr/link/sm-facebook/
+  - link "Visite-nous sur X":
+    - /url: /fr/link/sm-twitter/
+    - img
+  - link "Visite-nous sur LinkedIn":
+    - /url: /fr/link/sm-linkedin/
+  - link "Visite-nous sur Instagram":
+    - /url: /fr/link/sm-instagram/
+  - link "Visite-nous sur Youtube":
+    - /url: /fr/link/sm-youtube/
+  - link "Visite-nous sur Bitcoin Talk":
+    - /url: /fr/link/sm-bitcointalk/
+  - link "Visite-nous sur Zealy":
+    - /url: /fr/link/sm-zealy/
+    - img
+  - link "Visite-nous sur Telegram":
+    - /url: /fr/link/sm-telegram/
+  - paragraph: © 2017 - 2025 by TOKERO
+  - text: Version 9ceb0702
+- alert
+```
+
+# Test source
+
+```ts
+   1 | import {Page, Locator, expect} from '@playwright/test';
+   2 |
+   3 | type HeaderButton = 'corporate' | 'exchange' | 'academy' | 'contactUs' | 'login';
+   4 |
+   5 | export class HomePage {
+   6 |
+   7 |     // Header locators
+   8 |     private corporateBtn: Locator;
+   9 |     private exchangeBtn: Locator;
+  10 |     private academyBtn: Locator;
+  11 |     private contactUsBtn: Locator;
+  12 |     private loginBtn: Locator;
+  13 |
+  14 |     constructor(private page: Page) {
+  15 |         // Header locators
+  16 |         this.corporateBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(1)').nth(0)
+  17 |         this.exchangeBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(2)').nth(0)
+  18 |         this.academyBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(3)').nth(0)
+  19 |         this.contactUsBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(4)').nth(0)
+  20 |         this.loginBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(5)').nth(0)
+  21 |     }
+  22 |
+  23 |     // Button to URL mapping (adjust paths based on your app)
+  24 |     private buttonUrlMap: Record<HeaderButton, string> = {
+  25 |         corporate: '/corporate',
+  26 |         exchange: '/exchange',
+  27 |         academy: '/academy',
+  28 |         contactUs: '/contact',
+  29 |         login: '/login',
+  30 |     };
+  31 |
+  32 |     async goto(langCode: string) {
+  33 |         await this.page.goto(`/${langCode}/`);
+  34 |     }
+  35 |
+  36 |     async navigateTo(button: HeaderButton, language: string): Promise<void> {
+  37 |         const buttonLocator = this.getLocator(button);
+  38 |         await expect(buttonLocator).toBeVisible();
+  39 |
+  40 |         // Click the button and wait for navigation
+  41 |         await buttonLocator.click();
+  42 |
+  43 |         // Verify navigation by checking the URL
+  44 |         const expectedUrl = `${this.page.url().split('/').slice(0, 3).join('/')}/${language}${this.buttonUrlMap[button]}`;
+  45 |         await expect(this.page).toHaveURL(expectedUrl);
+  46 |     }
+  47 |
+  48 |     async verifyTexts(texts: { [key: string]: { value: string; attribute?: string; locator?: string } }) {
+  49 |         for (const [key, { value, attribute, locator }] of Object.entries(texts)) {
+  50 |             const element = locator ? this.page.locator(locator) : this.getLocator(key);
+  51 |             if (attribute) {
+  52 |                 await expect(element).toHaveAttribute(attribute, value);
+  53 |             } else {
+  54 |                 // Normalize text by trimming and collapsing multiple spaces/newlines
+  55 |                 const normalizedText = await element.textContent().then(text => text?.trim().replace(/\s+/g, ' '));
+> 56 |                 await expect(normalizedText).toBe(value);
+     |                                              ^ Error: expect(received).toBe(expected) // Object.is equality
+  57 |             }
+  58 |         }
+  59 |     }
+  60 |
+  61 |     async verifyNavigationBarFieldsVisible() {
+  62 |         await expect(this.corporateBtn).toBeVisible();
+  63 |         await expect(this.exchangeBtn).toBeVisible();
+  64 |         await expect(this.academyBtn).toBeVisible();
+  65 |         await expect(this.contactUsBtn).toBeVisible();
+  66 |         await expect(this.loginBtn).toBeVisible();
+  67 |     }
+  68 |     private getLocator(key: string): Locator {
+  69 |         switch (key) {
+  70 |             case 'corporate': return this.corporateBtn;
+  71 |             case 'exchange': return this.exchangeBtn;
+  72 |             case 'academy': return this.academyBtn;
+  73 |             case 'contactUs': return this.contactUsBtn;
+  74 |             case 'login': return this.loginBtn;
+  75 |             default: throw new Error(`Unknown text key: ${key}`);
+  76 |         }
+  77 |     }
+  78 | }
+```
