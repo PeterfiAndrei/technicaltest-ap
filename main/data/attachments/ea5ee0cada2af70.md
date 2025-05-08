@@ -1,0 +1,750 @@
+# Test info
+
+- Name: Playwright home page audits using lighthouse >> perform audit on the contact page with custom score for all categories
+- Location: /home/runner/work/technicaltest-ap/technicaltest-ap/tests/performance/homeUI.performance.spec.ts:22:9
+
+# Error details
+
+```
+Error: playwright lighthouse - A threshold is not matching the expectation.
+
+performance record is 26 and is under the 50 threshold
+    at /home/runner/work/technicaltest-ap/technicaltest-ap/tests/performance/homeUI.performance.spec.ts:32:13
+```
+
+# Page snapshot
+
+```yaml
+- paragraph:
+  - link "SocialFi is happening! Join the official SocialFi Waiting List today to earn Founder status!":
+    - /url: /en/link/socialfi-top/
+    - strong: SocialFi is happening!
+    - text: Join the official SocialFi Waiting List today to earn Founder status!
+- button "✖"
+- banner:
+  - navigation "Topbar menu":
+    - link "TOKERO logo":
+      - /url: /en/
+      - img "TOKERO logo"
+    - list:
+      - listitem:
+        - link "Corporate":
+          - /url: /en/corporate/
+      - listitem:
+        - link "Exchange":
+          - /url: /en/exchange/
+      - listitem:
+        - link "Academy":
+          - /url: /en/academy/
+      - listitem:
+        - link "Contact us":
+          - /url: /en/contact/
+      - listitem:
+        - link "Login":
+          - /url: /en/login/
+          - img
+          - text: Login
+      - listitem:
+        - link "Create account":
+          - /url: /en/register/
+      - listitem:
+        - button "en flag EN":
+          - img "en flag"
+          - text: EN
+- img "TOKERO"
+- heading "Buy Bitcoin BTC, Ether ETH and other cryptocurrencies today! You can buy instantly via card. Mastercard logoVisa logo Simple and secure." [level=3]:
+  - text: Buy Bitcoin
+  - img "BTC"
+  - text: ", Ether"
+  - img "ETH"
+  - text: and other cryptocurrencies today!
+  - link "You can buy instantly via card. Mastercard logoVisa logo":
+    - /url: /en/exchange/card/usdc/
+    - text: You can buy instantly via card.
+    - img "Mastercard logo"
+    - img "Visa logo"
+  - text: Simple and secure.
+- paragraph: Current exchange rates in EUR
+- table:
+  - rowgroup:
+    - row "Buy Sell":
+      - cell
+      - cell "Buy"
+      - cell "Sell"
+  - rowgroup:
+    - row "BTC Bitcoin BTC 90625.75 88761.91":
+      - cell "BTC":
+        - link "BTC":
+          - /url: /en/info/bitcoin-btc/
+          - img "BTC"
+      - cell "Bitcoin BTC":
+        - link "Bitcoin BTC":
+          - /url: /en/info/bitcoin-btc/
+      - cell "90625.75":
+        - link "90625.75":
+          - /url: /en/exchange/buy/btc/eur/
+      - cell "88761.91":
+        - link "88761.91":
+          - /url: /en/exchange/sell/btc/eur/
+    - row "ETH Ether ETH 1841.03 1804.01":
+      - cell "ETH":
+        - link "ETH":
+          - /url: /en/info/ether-eth/
+          - img "ETH"
+      - cell "Ether ETH":
+        - link "Ether ETH":
+          - /url: /en/info/ether-eth/
+      - cell "1841.03":
+        - link "1841.03":
+          - /url: /en/exchange/buy/eth/eur/
+      - cell "1804.01":
+        - link "1804.01":
+          - /url: /en/exchange/sell/eth/eur/
+    - row "USDT Tether USDT 0.8980 0.8798":
+      - cell "USDT":
+        - link "USDT":
+          - /url: /en/info/tether-usdt/
+          - img "USDT"
+      - cell "Tether USDT":
+        - link "Tether USDT":
+          - /url: /en/info/tether-usdt/
+      - cell "0.8980":
+        - link "0.8980":
+          - /url: /en/exchange/buy/usdt/eur/
+      - cell "0.8798":
+        - link "0.8798":
+          - /url: /en/exchange/sell/usdt/eur/
+    - row "SOL Solana SOL 143.909 140.985":
+      - cell "SOL":
+        - link "SOL":
+          - /url: /en/info/solana-sol/
+          - img "SOL"
+      - cell "Solana SOL":
+        - link "Solana SOL":
+          - /url: /en/info/solana-sol/
+      - cell "143.909":
+        - link "143.909":
+          - /url: /en/exchange/buy/sol/eur/
+      - cell "140.985":
+        - link "140.985":
+          - /url: /en/exchange/sell/sol/eur/
+    - row "TOKERO TOKERO Token TOKERO 0.1539 0.1509":
+      - cell "TOKERO":
+        - link "TOKERO":
+          - /url: /en/info/tokero-token/
+          - img "TOKERO"
+      - cell "TOKERO Token TOKERO":
+        - link "TOKERO Token TOKERO":
+          - /url: /en/info/tokero-token/
+      - cell "0.1539":
+        - link "0.1539":
+          - /url: /en/exchange/buy/tokero/eur/
+      - cell "0.1509":
+        - link "0.1509":
+          - /url: /en/exchange/sell/tokero/eur/
+- text: "New coins:"
+- link "TOKERO":
+  - /url: /en/info/tokero-token/
+  - img "TOKERO"
+- link "TADA":
+  - /url: /en/info/tada/
+  - img "TADA"
+- link "INFRA":
+  - /url: /en/info/bware-infra/
+  - img "INFRA"
+- link "AI":
+  - /url: /en/info/sleepless-ai/
+  - img "AI"
+- link "DOT":
+  - /url: /en/info/polkadot-dot/
+  - img "DOT"
+- link "Create account!":
+  - /url: /en/register/
+  - text: Create account!
+  - img
+- text: or
+- link "Login now":
+  - /url: /en/login/
+- paragraph:
+  - text: At TOKERO, our mission is to make
+  - strong: crypto
+  - text: accessible to everyone in a
+  - strong: simple
+  - text: ", fast and safe way."
+- img
+- heading "How to Build a Profitable Portfolio in 2025" [level=2]
+- heading [level=3]:
+  - link:
+    - /url: /en/webinars/tokero-ventures-feb-2024-26/
+- heading "Sunday April 20th, 2025" [level=3]
+- heading "0:00 (Eastern European Time (Bucharest))" [level=3]
+- heading "The webinar has ended. You can watch the recording here." [level=4]
+- link "Watch the Recording":
+  - /url: /en/webinars/tokero-ventures-feb-2024-26/
+  - text: Watch the Recording
+  - img
+- link "/content/img/cover-webinar-tokero-ventures-26-feb-2025-en.jpg":
+  - /url: /en/webinars/tokero-ventures-feb-2024-26/
+  - img "/content/img/cover-webinar-tokero-ventures-26-feb-2025-en.jpg"
+- link "TOKERO Token":
+  - /url: /en/launchpad/tokero-token-community-sale-19/
+  - img "TOKERO Token"
+- heading "TOKERO Token Community Sale" [level=2]
+- heading "TOKERO Token" [level=3]:
+  - link "TOKERO Token":
+    - /url: /en/launchpad/tokero-token-community-sale-19/
+- paragraph: "Get access to the Pre-Sale on our freshly launched utility token:"
+- list:
+  - listitem: "Current Price: 0.06$"
+  - listitem: "Public listing price: 0.08$"
+  - listitem: Packages starting from 100 USDT
+- link "Join The Community Sale":
+  - /url: /en/launchpad/tokero-token-community-sale-19/
+  - text: Join The Community Sale
+  - img
+- heading "Discover the 3 coins and tokens available today on TOKERO:" [level=2]
+- button "All coins"
+- button "DeFi"
+- button "Wallet"
+- button "Layer1"
+- button "Gaming"
+- button "AI"
+- button "Infrastructure"
+- button "NFT"
+- button "DAO"
+- button "Storage"
+- button "Layer2"
+- button "DEX"
+- button "Metaverse"
+- button "Bridge"
+- button "Launchpad"
+- button "CEX"
+- button "Memes"
+- table:
+  - rowgroup:
+    - row "Coins Price(€) Market Cap":
+      - cell "Coins"
+      - cell
+      - cell
+      - cell "Price(€)"
+      - cell "Market Cap"
+  - rowgroup:
+    - row "BTC Bitcoin BTC Buy card 89685 1771.73B":
+      - cell "BTC Bitcoin BTC":
+        - table:
+          - rowgroup:
+            - row "BTC Bitcoin BTC":
+              - cell "BTC":
+                - link "BTC":
+                  - /url: /en/info/bitcoin-btc/
+                  - img "BTC"
+              - cell "Bitcoin BTC":
+                - link "Bitcoin BTC":
+                  - /url: /en/info/bitcoin-btc/
+      - cell "Buy":
+        - link "Buy":
+          - /url: /en/exchange/buy/btc/eur/
+      - cell "card":
+        - link "card":
+          - /url: /en/exchange/card/btc/
+          - img "card"
+      - cell "89685":
+        - link "89685":
+          - /url: /en/exchange/buy/btc/eur/
+      - cell "1771.73B":
+        - link "1771.73B":
+          - /url: /en/info/bitcoin-btc/
+    - row "USDC USD Coin USDC Buy card 0.888":
+      - cell "USDC USD Coin USDC":
+        - table:
+          - rowgroup:
+            - row "USDC USD Coin USDC":
+              - cell "USDC":
+                - link "USDC":
+                  - /url: /en/info/usd-coin-usdc/
+                  - img "USDC"
+              - cell "USD Coin USDC":
+                - link "USD Coin USDC":
+                  - /url: /en/info/usd-coin-usdc/
+      - cell "Buy":
+        - link "Buy":
+          - /url: /en/exchange/buy/usdc/eur/
+      - cell "card":
+        - link "card":
+          - /url: /en/exchange/card/usdc/
+          - img "card"
+      - cell "0.888":
+        - link "0.888":
+          - /url: /en/exchange/buy/usdc/eur/
+      - cell
+    - row "TOKERO TOKERO Token TOKERO Buy card 0.152":
+      - cell "TOKERO TOKERO Token TOKERO":
+        - table:
+          - rowgroup:
+            - row "TOKERO TOKERO Token TOKERO":
+              - cell "TOKERO":
+                - link "TOKERO":
+                  - /url: /en/info/tokero-token/
+                  - img "TOKERO"
+              - cell "TOKERO Token TOKERO":
+                - link "TOKERO Token TOKERO":
+                  - /url: /en/info/tokero-token/
+      - cell "Buy":
+        - link "Buy":
+          - /url: /en/exchange/buy/tokero/eur/
+      - cell "card":
+        - link "card":
+          - /url: /en/exchange/card/tokero/
+          - img "card"
+      - cell "0.152":
+        - link "0.152":
+          - /url: /en/exchange/buy/tokero/eur/
+      - cell
+- text: "Show:"
+- listbox: "10"
+- text: rows out of 3
+- list:
+  - listitem
+  - listitem: "1"
+  - listitem
+- paragraph
+- link "Tokero Ventures":
+  - /url: /en/page/tokero-ventures/
+  - img "Tokero Ventures"
+- heading "Enter the Elite Ranks with TOKERO Ventures" [level=2]
+- paragraph: A complex business ecosystem empowering visionaries, investors, and mentors in the world of crypto.
+- link "Discover the program ":
+  - /url: /en/page/tokero-ventures/
+- heading "Learn about crypto" [level=2]
+- paragraph: Explore the world of crypto and blockchain with our dynamic courses. From understanding the fundamentals to mastering advanced concepts, dive into this transformative technology and unlock its potential. Join us to stay ahead in the rapidly evolving landscape of digital currencies and decentralized finance.
+- link "Explore the courses":
+  - /url: /en/academy/courses/
+  - text: Explore the courses
+  - img
+- link "Crypto 101":
+  - /url: /en/academy/course/introduction-into-cryptocurrencies-quiz-qri/
+  - img "Crypto 101"
+- link "Online Exchange":
+  - /url: /en/exchange/
+  - img "Online Exchange"
+- link "Spend EUR EUR 1085.00 Receive BTC BTC 0.01197":
+  - /url: /en/exchange/buy/btc/eur/
+  - text: Spend
+  - img "EUR"
+  - paragraph: EUR
+  - text: "1085.00"
+  - separator
+  - text: Receive
+  - img "BTC"
+  - paragraph: BTC
+  - text: "0.01197"
+  - img
+- heading "Online Exchange" [level=2]
+- paragraph: Safe beginner-friendly crypto exchange platform allowing easy transfers between fiat and cryptocurrencies.
+- paragraph: 27+
+- paragraph: Countries
+- paragraph: 5+
+- paragraph: Years Old
+- paragraph: 24/7
+- paragraph: Support
+- link "View more":
+  - /url: /en/exchange/
+  - text: View more
+  - img
+- heading "Business Accounts" [level=2]
+- paragraph: We offer a quick setup for a corporate account, you have your corporate account complete in only few hours.
+- paragraph:
+  - img
+  - text: Simple registration, same as for individuals.
+- paragraph:
+  - img
+  - text: Short validation times.
+- paragraph:
+  - img
+  - text: Deposits and withdrawals executed within a few hours.
+- link "View more":
+  - /url: /en/corporate/
+  - text: View more
+  - img
+- link "Business Accounts":
+  - /url: /en/corporate/
+  - img "Business Accounts"
+- link "Become an Affiliate Hero!":
+  - /url: /en/referral-program/
+  - img "Become an Affiliate Hero!"
+- heading "Become an Affiliate Hero!" [level=2]
+- paragraph: You can earn money by promoting TOKERO to your friends and community.
+- list:
+  - listitem: Invite others to register through your link.
+  - listitem: They register and exchange funds with us.
+  - listitem: You get up to 40% from our fees!
+- link "View more":
+  - /url: /en/referral-program/
+  - text: View more
+  - img
+- heading "TOKERO PRO" [level=2]
+- paragraph: Welcome to TOKERO Business Class! You have your own dedicated account officer and priority to the freshest listings on our Launchpad.
+- link "View more":
+  - /url: /en/page/pro/
+  - text: View more
+  - img
+- link "TOKERO PRO":
+  - /url: /en/page/pro/
+  - img "TOKERO PRO"
+- img "BTC"
+- paragraph: BTC
+- link "€ 90625.75":
+  - /url: /en/exchange/buy/btc/eur/
+- img
+- paragraph: TOKERO PRO
+- paragraph: 34m ago
+- paragraph: Your PRO Webinar is about to start.
+- img "ETH"
+- paragraph: ETH
+- link "€ 1841.03":
+  - /url: /en/exchange/buy/eth/eur/
+- link "Card Purchase":
+  - /url: /en/exchange/card/usdc/
+  - img "Card Purchase"
+- heading "Card PurchaseMastercard logoVisa logo" [level=2]:
+  - text: Card Purchase
+  - img "Mastercard logo"
+  - img "Visa logo"
+- paragraph: "Choose to buy the cryptocurrency of your choice using the fastest, safest and easiest way possible: buy crypto via card!"
+- link "BTC Bitcoin":
+  - /url: /en/exchange/card/btc/
+  - img "BTC"
+  - paragraph: Bitcoin
+- link "ETH Ether":
+  - /url: /en/exchange/card/eth/
+  - img "ETH"
+  - paragraph: Ether
+- link "USDT Tether":
+  - /url: /en/exchange/card/usdc/
+  - img "USDT"
+  - paragraph: Tether
+- paragraph: "+87"
+- paragraph: others
+- link "Buy Crypto Now!":
+  - /url: /en/exchange/card/usdc/
+  - text: Buy Crypto Now!
+  - img
+- heading "Tap-tap and Level Up!" [level=2]
+- paragraph: Jump into Crypto Mayors Kombat and tap to win! Every tap brings you closer to the next level – closer to becoming the leader who changes the game! We’re looking for the Crypto Mayor who’ll take charge, build their crew, and show the world there’s no room for amateurs.
+- paragraph: Make your way to the top, it’s all up to you! Don’t let anyone steal your spot!
+- paragraph: Ready to be the Crypto Mayor everyone’s talking about? Don’t wait, play now and show them what you’ve got!
+- link "Crypto Mayors Kombat":
+  - /url: http://tap.tokero.com/
+  - text: Crypto Mayors Kombat
+  - img
+- link "Tap-tap and Level Up!":
+  - /url: http://tap.tokero.com/
+  - img "Tap-tap and Level Up!"
+- link "Vouchers":
+  - /url: /en/my-account/vouchers/send/?voucher=18
+  - img "Vouchers"
+- heading "Vouchers" [level=2]
+- paragraph: Send a crypto voucher today for free! We have created a set of beautiful templates that you can send to friends, family or loved ones on special occasions. Send a birthday voucher, a Valentine's Day voucher, Christmas, New Years, Easter, and make their day!
+- list:
+  - listitem: Pick your favorite template
+  - listitem: Choose the crypto currency and amount
+  - listitem: We send it via email
+  - listitem: You have made someone smile!
+- link "Send a voucher today":
+  - /url: /en/my-account/vouchers/send/?voucher=18
+  - text: Send a voucher today
+  - img
+- heading "Why TOKERO?" [level=2]
+- paragraph: Simplicity
+- paragraph: User friendly interface for smooth onboarding.
+- paragraph: Corporate Account
+- paragraph: Get your corporate account setup in only a few hours!
+- paragraph: Customer Support
+- paragraph: 24/7 support & dedicated account officer for PRO clients.
+- paragraph: Trust
+- paragraph: We've been delivering services for our clients since March 2018.
+- img "Trade Crypto"
+- heading "Trade Crypto in just a few steps" [level=2]
+- paragraph: At TOKERO, our mission is to make crypto accessible to everyone in a simple, fast and safe way.
+- list:
+  - listitem:
+    - paragraph: Register
+    - paragraph:
+      - link "Go to the registration page":
+        - /url: /en/register/
+      - text: or download the TOKERO APP. Register your personal data on the personal information page.
+  - listitem:
+    - paragraph: Verify
+    - paragraph: The verification process is smooth and fast thanks to the liveness check ideal tool provided by our partner ONDATO.
+  - listitem:
+    - paragraph: Deposit
+    - paragraph: You can make deposits with a card or online transfers from the comfort of your home or office using the online banking access solution of your bank.
+  - listitem:
+    - paragraph: Buy Crypto
+    - paragraph: Exchange fiat with your favorite crypto at the best rates 24/7. If you need any information, our support team is at your service.
+- heading "Your journey with TOKERO is powered by the best providers in the industry" [level=2]
+- img "Chainalysis"
+- img "Clearjunction"
+- img "Covery"
+- img "Nexpay"
+- img "Ondato"
+- img "Trust Payments"
+- heading "Open a business account today and get access to even more features!" [level=2]
+- img
+- paragraph: Investments
+- paragraph: If you want to invest in cryptocurrencies using company funds, and trade on behalf of your company, then a business account at TOKERO will satisfy all your needs.
+- img
+- paragraph: Time-saving!
+- paragraph: We ofer you super-speed in opening a business account through the efficient verification and validation of documents using dedicated tools (a few hours compared to a few months on foreign platforms).
+- img
+- paragraph: Legal support
+- paragraph: "Sometimes, accounting and legal issues in an emerging market could be a headache; but we are here: our accounting and legal partners are always happy to contribute!"
+- paragraph: Companies using TOKERO’s business solutions
+- img "Fort"
+- img "BH Network"
+- img "Miniprix"
+- img "Wam"
+- img "Staking Agency"
+- img "Trust Staking"
+- heading "We love our customers and they love us back" [level=2]
+- img
+- paragraph: Although we find ourselves in a very tangible industry - the production of insulated joinery, we are also keen on the digital dimension, as long as it provides an investment justification. We've worked with TOKERO both as individuals and as a legal entity and, in addition to fast onboarding, we've found top quality support whenever we've needed it.
+- img "Ştefan CHERCIU"
+- paragraph: Ştefan CHERCIU
+- paragraph: President/Founder Casa Noastra/QFort
+- img
+- paragraph: The partnership with TOKERO was smooth and cool from the very beginning. Besides being a company that has a solid foundation and is growing with ambition, it's a team of people you want to do business with. Thank you, Marius, for the partnership.
+- img "Daniel TAMAȘ"
+- paragraph: Daniel TAMAȘ
+- paragraph: CEO & Co-Founder WAM.app
+- img
+- paragraph: BH.Network is a web hub3 with offices in Liechtenstein and Romania, which builds products such as the BHero.com launchpad and the topIQs.com marketplace. We are grateful to find a trusted local partner in TOKERO, which makes on and off ramp transitions in a secure, fast and fully compliant manner on AML and accounting. Of course, there are global solutions, but it's much easier to solve one-off accounting things when all the 3rd party teams are in the same country.
+- img "Marius GRIGORAȘ"
+- paragraph: Marius GRIGORAȘ
+- paragraph: CEO & Co-Founder BH Network
+- heading "FEATURED IN" [level=2]
+- img "Biz"
+- img "Forbes"
+- img "Profit"
+- img "Yahoo finance"
+- img "Ziarul financiar"
+- img "Wall street"
+- heading "Check out our latest articles" [level=2]
+- link "Article TEST Top Strategies for Smart Investing":
+  - /url: /en/blog/test-top-strategies-for-smart-investing-468/
+  - img "Article"
+  - heading "TEST Top Strategies for Smart Investing" [level=5]
+- link "Article Top Strategies for Smart Investing":
+  - /url: /en/blog/top-strategies-for-smart-investing-465/
+  - img "Article"
+  - heading "Top Strategies for Smart Investing" [level=5]
+- 'link "Article Basis Trading: Spot vs Futures"':
+  - /url: /en/blog/basis-trading-spot-vs-futures-460/
+  - img "Article"
+  - 'heading "Basis Trading: Spot vs Futures" [level=5]'
+- link "Article TOKERO Launches Crypto Mayors Kombat":
+  - /url: /en/blog/tokero-launches-tap2earn-game-458/
+  - img "Article"
+  - heading "TOKERO Launches Crypto Mayors Kombat" [level=5]
+- 'link "Article Leading Web3 Ticketing Platform Arrives on Our Launchpad: Welcome, OVEIT!"':
+  - /url: /en/blog/launching-oveit-412/
+  - img "Article"
+  - 'heading "Leading Web3 Ticketing Platform Arrives on Our Launchpad: Welcome, OVEIT!" [level=5]'
+- link "View more":
+  - /url: /en/blog/
+  - text: View more
+  - img
+- paragraph: Get TOKERO with you on the go
+- paragraph:
+  - text: The
+  - strong: TOKERO mobile app
+  - text: "is now available in:"
+- link "App Store":
+  - /url: /en/link/home-app-ios/
+  - img "App Store"
+- link "Google Play Store":
+  - /url: /en/link/home-app-android/
+  - img "Google Play Store"
+- contentinfo:
+  - paragraph: TOKERO
+  - list:
+    - listitem:
+      - link "About us":
+        - /url: /en/about-us/
+    - listitem:
+      - link "Community":
+        - /url: /en/community/
+    - listitem:
+      - link "Meet the Team":
+        - /url: /en/team/
+    - listitem:
+      - link "Blog":
+        - /url: /en/blog/
+    - listitem:
+      - link "Careers We are hiring!":
+        - /url: https://tokero.team/
+    - listitem:
+      - link "Webinars and meetups":
+        - /url: /en/webinars/
+    - listitem:
+      - link "Launchpad events":
+        - /url: /en/launchpad/
+    - listitem:
+      - link "Downloadable assets":
+        - /url: /en/downloads/
+  - paragraph: Services
+  - list:
+    - listitem:
+      - link "Online Exchange":
+        - /url: /en/exchange/
+    - listitem:
+      - link "Corporate accounts":
+        - /url: /en/corporate/
+    - listitem:
+      - link "TOKERO Academy New!":
+        - /url: /en/academy/
+    - listitem:
+      - link "TOKERO PRO":
+        - /url: /en/page/pro/
+    - listitem:
+      - link "TOKERO Ventures New!":
+        - /url: /en/page/tokero-ventures/
+    - listitem:
+      - link "Crypto Spots":
+        - /url: /en/crypto-spots/united-states-of-america/
+    - listitem:
+      - link "Referrals":
+        - /url: /en/referral-program/
+    - listitem:
+      - link "Contact us":
+        - /url: /en/contact/
+    - listitem:
+      - link "Apply for listing":
+        - /url: /en/get-listed/
+    - listitem:
+      - button "en flag English":
+        - img "en flag"
+        - text: English
+  - paragraph: POLICIES AND RULES
+  - list:
+    - listitem:
+      - link "Policies list":
+        - /url: /en/policies/
+    - listitem:
+      - link "Terms and conditions":
+        - /url: /en/policies/terms-of-service/
+    - listitem:
+      - link "GDPR":
+        - /url: /en/policies/gdpr/
+    - listitem:
+      - link "Privacy":
+        - /url: /en/policies/privacy/
+    - listitem:
+      - link "KYC":
+        - /url: /en/policies/kyc/
+    - listitem:
+      - link "Cookies":
+        - /url: /en/policies/cookies/
+  - paragraph: INFO
+  - list:
+    - listitem:
+      - link "Fees and timings":
+        - /url: /en/policies/fees/
+    - listitem:
+      - link "Minimums and options":
+        - /url: /en/policies/minimums-and-options/
+    - listitem:
+      - link "Request answering/processing times":
+        - /url: /en/policies/answering-times/
+    - listitem:
+      - link "Coins info":
+        - /url: /en/info/
+    - listitem:
+      - link "Non-banking days":
+        - /url: /en/non-banking-days/
+    - listitem:
+      - link "Online Dispute Resolution":
+        - /url: https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show
+  - paragraph: Newsletter
+  - textbox "Please type your email address here"
+  - button "Subscribe "
+  - link "Visit us on Facebook":
+    - /url: /en/link/sm-facebook/
+  - link "Visit us on X":
+    - /url: /en/link/sm-twitter/
+    - img
+  - link "Visit us on LinkedIn":
+    - /url: /en/link/sm-linkedin/
+  - link "Visit us on Instagram":
+    - /url: /en/link/sm-instagram/
+  - link "Visit us on Youtube":
+    - /url: /en/link/sm-youtube/
+  - link "Visit us on Bitcoin Talk":
+    - /url: /en/link/sm-bitcointalk/
+  - link "Visit us on Zealy":
+    - /url: /en/link/sm-zealy/
+    - img
+  - link "Visit us on Telegram":
+    - /url: /en/link/sm-telegram/
+  - paragraph: © 2017 - 2025 by TOKERO
+  - text: Build 40de16f3
+- paragraph: Cookies allow you to use this website normally and customize your experience on this website.
+- link ">>More information":
+  - /url: /en/policies/cookies/
+- button "Customize"
+- button "Accept all cookies"
+- alert
+```
+
+# Test source
+
+```ts
+   1 | import {chromium} from 'playwright';
+   2 | import {playAudit} from 'playwright-lighthouse';
+   3 | import {test} from '@playwright/test';
+   4 | import {languageTexts} from "../test-data/language-contact-texts";
+   5 | import {HomePage} from "../pages/HomePage";
+   6 |
+   7 | let language: keyof typeof languageTexts;
+   8 | let homePage: HomePage;
+   9 |
+  10 | test.describe('Playwright home page audits using lighthouse', () => {
+  11 |     test.beforeEach(async ({page}, testInfo) => {
+  12 |         test.setTimeout(90000);
+  13 |         homePage = new HomePage(page);
+  14 |         // @ts-ignore
+  15 |         language = testInfo.project.use.language as keyof typeof languageTexts;
+  16 |         if (!language || !languageTexts[language]) {
+  17 |             throw new Error(`Language ${language} not found in languageTexts`);
+  18 |         }
+  19 |         await homePage.goto(language);
+  20 |     });
+  21 |
+  22 |     test('perform audit on the contact page with custom score for all categories', async ({page}, testInfo) => {
+  23 |         test.skip(!testInfo.project.name.startsWith('chromium'), 'Lighthouse audits are only supported on Chromium browsers.');
+  24 |         const browser = await chromium.launch({
+  25 |             args: ['--remote-debugging-port=9222'],
+  26 |             headless: true,
+  27 |         });
+  28 |
+  29 |         try {
+  30 |             const auditPage = await browser.newPage();
+  31 |             await auditPage.goto(page.url());
+> 32 |             await playAudit({
+     |             ^ Error: playwright lighthouse - A threshold is not matching the expectation.
+  33 |                 page: auditPage,
+  34 |                 port: 9222,
+  35 |                 thresholds: {
+  36 |                     performance: 50,
+  37 |                     accessibility: 70,
+  38 |                     'best-practices': 50,
+  39 |                     seo: 70,
+  40 |                     pwa: 50,
+  41 |                 },
+  42 |             });
+  43 |         } finally {
+  44 |             await browser.close();
+  45 |         }
+  46 |     });
+  47 | });
+```
