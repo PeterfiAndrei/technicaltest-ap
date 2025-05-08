@@ -1,6 +1,10 @@
 export const languageTexts = {
     en: {
         acceptCookiesText: 'Accept all cookies',
+        subscribePlaceholder: 'Please type your email address here',
+        subscribeSuccess: 'You have succesfully subscribed to the newsletter! 🎉',
+        subscribeError: 'The email address is not valid',
+        emptyEmailError: 'The field is required',
         headers:{
             corporate: { value: 'Corporate' },
             exchange: { value: 'Exchange' },
@@ -11,6 +15,10 @@ export const languageTexts = {
     },
     ro: {
         acceptCookiesText: 'Acceptă toate cookie-urile',
+        subscribePlaceholder: 'Introdu adresa ta de email aici',
+        subscribeSuccess: 'Te-ai abonat cu succes la newsletter! 🎉',
+        subscribeError: 'Adresa de email nu este validă',
+        emptyEmailError: 'Acest câmp este necesar',
         headers:{
             corporate: { value: 'Corporate' },
             exchange: { value: 'Schimb' },
@@ -21,6 +29,10 @@ export const languageTexts = {
     },
     fr: {
         acceptCookiesText: 'Accepter tous les cookies',
+        subscribePlaceholder: 'S\'il te plaît, saisis ton e-mail ici',
+        subscribeSuccess: 'Tu es abonné avec succès à la newsletter ! 🎉',
+        subscribeError: 'L\'adresse d\'email n\'est pas valide',
+        emptyEmailError: 'Ce champ est obligatoire',
         headers:{
             corporate: { value: 'Entreprise' },
             exchange: { value: 'Échange' },

@@ -1,5 +1,4 @@
 import {test, expect} from '@playwright/test';
-import {generateValidEmail} from "../utils/generateValidEmail";
 import {ContactPage} from "../pages/ContactPage";
 import {languageTexts} from "../test-data/language-contact-texts";
 

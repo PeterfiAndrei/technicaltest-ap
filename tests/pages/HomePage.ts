@@ -17,6 +17,10 @@ export class HomePage {
     private academyBtn: Locator;
     private contactUsBtn: Locator;
     private loginBtn: Locator;
+    private subscribeInput: Locator;
+    private subscribeButton: Locator;
+    private subscribeSuccess: Locator;
+    private subscribeError: Locator;
 
     constructor(private page: Page) {
         // Header locators
@@ -25,6 +29,10 @@ export class HomePage {
         this.academyBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(3)').nth(0)
         this.contactUsBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(4)').nth(0)
         this.loginBtn = page.locator('#next-layout > header > nav > ul > li:nth-child(5)').nth(0)
+        this.subscribeInput = page.getByTestId('Email')
+        this.subscribeButton = page.locator('.ripple.btn[role="button"][type="submit"]')
+        this.subscribeSuccess = page.locator('.footer_footer___6Rt4 .border-top .container .col div')
+        this.subscribeError = page.locator('.footer_footer___6Rt4 .border-top .container .text-danger')
     }
 
     private buttonUrlMap: Record<HeaderButton, string> = {
@@ -37,6 +45,21 @@ export class HomePage {
 
     async goto(langCode: string) {
         await this.page.goto(`/${langCode}/`);
+    }
+    async fillSubscribeField(email: string): Promise<void> {
+        await this.subscribeInput.fill(email);
+    }
+
+    async clickSubscribeButton(): Promise<void> {
+        await this.subscribeButton.click();
+    }
+
+    async verifySubscribeSuccessMessage(expectedMessage: string): Promise<void> {
+        await expect(this.subscribeSuccess).toHaveText(expectedMessage);
+    }
+
+    async verifySubscribeErrorMessage(expectedMessage: string): Promise<void> {
+        await expect(this.subscribeError).toHaveText(expectedMessage);
     }
 
     async navigateTo(button: HeaderButton): Promise<void> {

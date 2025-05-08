@@ -51,5 +51,32 @@ export default defineConfig({
         headless: isCI,
       },
     },
+    // {
+    //   name: 'firefox-en',
+    //   use: {
+    //     ...devices['Desktop Firefox'],
+    //     contextOptions: { locale: 'en-US' },
+    //     language: 'en',
+    //     headless: isCI,
+    //   },
+    // },
+    // {
+    //   name: 'firefox-ro',
+    //   use: {
+    //     ...devices['Desktop Firefox'],
+    //     contextOptions: { locale: 'ro-RO' },
+    //     language: 'ro',
+    //     headless: isCI,
+    //   },
+    // },
+    // {
+    //   name: 'firefox-fr',
+    //   use: {
+    //     ...devices['Desktop Firefox'],
+    //     contextOptions: { locale: 'fr-FR' },
+    //     language: 'fr',
+    //     headless: isCI,
+    //   },
+    // },
   ],
 });
