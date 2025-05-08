@@ -19,13 +19,26 @@ test.describe('Subscribe Tests', () => {
         await acceptCookies(page, acceptCookiesText);
     });
 
-
     test('Subscribe with valid email', async () => {
         const {subscribeSuccess} = languageTexts[language];
 
         await homePage.fillSubscribeField(generateValidEmail());
         await homePage.clickSubscribeButton();
         await homePage.verifySubscribeSuccessMessage(subscribeSuccess);
+    });
+
+
+    test('Subscribe not be able to subscribe again with the same email', async () => {
+        const {subscribeSuccess, subscribeErrorDuplicate} = languageTexts[language];
+        const email:string = generateValidEmail()
+        await homePage.fillSubscribeField(email);
+        await homePage.clickSubscribeButton();
+        await homePage.verifySubscribeSuccessMessage(subscribeSuccess);
+
+        await homePage.goto(language)
+        await homePage.fillSubscribeField(email);
+        await homePage.clickSubscribeButton();
+        await homePage.verifySubscribeErrorMessage(subscribeErrorDuplicate);
     });
 
 

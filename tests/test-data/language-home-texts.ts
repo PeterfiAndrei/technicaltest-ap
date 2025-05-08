@@ -4,6 +4,7 @@ export const languageTexts = {
         subscribePlaceholder: 'Please type your email address here',
         subscribeSuccess: 'You have succesfully subscribed to the newsletter! 🎉',
         subscribeError: 'The email address is not valid',
+        subscribeErrorDuplicate: 'The email address already subscribed',
         emptyEmailError: 'The field is required',
         headers:{
             corporate: { value: 'Corporate' },
@@ -18,6 +19,7 @@ export const languageTexts = {
         subscribePlaceholder: 'Introdu adresa ta de email aici',
         subscribeSuccess: 'Te-ai abonat cu succes la newsletter! 🎉',
         subscribeError: 'Adresa de email nu este validă',
+        subscribeErrorDuplicate: 'Adresa de email este deja abonată',
         emptyEmailError: 'Acest câmp este necesar',
         headers:{
             corporate: { value: 'Corporate' },
@@ -32,6 +34,7 @@ export const languageTexts = {
         subscribePlaceholder: 'S\'il te plaît, saisis ton e-mail ici',
         subscribeSuccess: 'Tu es abonné avec succès à la newsletter ! 🎉',
         subscribeError: 'L\'adresse d\'email n\'est pas valide',
+        subscribeErrorDuplicate: 'L\'adresse e-mail est déjà abonnée',
         emptyEmailError: 'Ce champ est obligatoire',
         headers:{
             corporate: { value: 'Entreprise' },
